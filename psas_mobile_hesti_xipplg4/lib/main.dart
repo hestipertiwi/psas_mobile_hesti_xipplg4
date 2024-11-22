@@ -31,7 +31,7 @@ class _LoginPageState extends State<LoginPage> {
     String username = _usernameController.text;
     String password = _passwordController.text;
 
-    if (username == 'hesti' && password == 'hesti1234') {
+    if (username == 'hesti' && password == '12345') {
       // Login berhasil
       showDialog(
         context: context,
